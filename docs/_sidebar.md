@@ -1,4 +1,4 @@
-- [Introduction](/)
+- [Overview](/)
 - [Users](users.md "Users")
 - [Bookings](bookings.md "Bookings")
 - [Locations](locations.md "Locations")

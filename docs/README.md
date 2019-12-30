@@ -1,10 +1,10 @@
-## Overview
+# Overview
 
-The goal of the app is booking users
+This app aims to provide a corporate booking solution for our customers.
 
 Each [vehicles](vehicles.md), [users](users.md), and [bookings](bookings.md) are grouped into [clients](clients.md). Therefore, each client will have their own separate sets of vehicles, users, and bookings. See [clients](clients.md) for more info.
 
-The app has multiple user [roles](/users.md#Roles) with varying [permissions](/permissions.md). The four roles and their general functions in the app are as follows:
+Each users in the app has a designated [role](/users.md#Roles) in the app specific [permissions](/permissions.md). The four roles and their general functions in the app are as follows:
 
 **Master**
 
@@ -32,6 +32,9 @@ The app has multiple user [roles](/users.md#Roles) with varying [permissions](/p
 
 ## Sidebar Navigation
 
+Access the sidebar by clicking the top right hamburger button.
+
+<img src="/media/sidebar.png" alt="Sidebar" style="width: 400px"></img>
 
 #### Home
 
@@ -49,11 +52,15 @@ See [Bookings](/bookings.md).
 
 #### Locations
 
+Here, a *master* account can create locations. A location is a container for vehicles in where the *guest* account can pick up the vehicle for booking.
+
 See [Locations](/locations.md).
 
 :closed_lock_with_key: Accessible by *Everyone*
 
 #### Users
+
+Users of the app can be managed here.
 
 See [Users](/users.md).
 
@@ -61,11 +68,15 @@ See [Users](/users.md).
 
 #### Vehicles
 
+Vehicles in the app can be managed here. Vehicles are to be booked by *guests*.
+
 :closed_lock_with_key: Accessible by *Everyone*
 
 See [Vehicles](/vehicles.md).
 
 #### Accidents
+
+If a *guest* has been involved in a vehicular accident, they can send a accident report in the app. This will send a notification to the *key manager* of the vehicle.
 
 :closed_lock_with_key: Accessible by *Everyone*
 
@@ -73,17 +84,23 @@ See [Accidents](/accidents.md).
 
 #### Clients
 
+Resources such as users, locations, and vehicles are designated into multiple clients. Users of a client will not have access to other resources which are not designated to their own client.
+
 :closed_lock_with_key: Accessible by *Master*
 
 See [Clients](/clients.md).
 
 #### Reports
 
+Generates statistical reports from the app.
+
 :closed_lock_with_key: Accessible by *Master*, *Admin*, *Key Manager*
 
 See [Reports](/reports.md).
 
 #### Settings
+
+Provides various settings for the app/users.
 
 :closed_lock_with_key: Accessible by *Everyone*
 
