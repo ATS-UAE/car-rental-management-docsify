@@ -40,6 +40,8 @@ If a user has no client assigned to them, they would not be able to log in.
 
 !> Only one client can be assigned for each user.
 
+See [users](/users.md).
+
 ## Assigning Locations
 
 You can assign locations by clicking the location icon ![Location](/media/icons/location_city-24px.svg). You can then select which locations will be available to the client.
@@ -54,6 +56,8 @@ You can unassign the location by transferring them to the left pane.
 
 !> Unassigning a location to a client will also unassign all the vehicles which are both assigned to the location and the client.
 
+See [locations](/locations.md).
+
 ## Assigning Vehicles
 
 You can assign vehicles by clicking the vehicle icon ![Vehicle](/media/icons/directions_car-24px.svg). You can then select which vehicles will be available to the client.
@@ -67,4 +71,4 @@ A vehicle will only be available to be assigned to the client if:
 - The assigned location of the vehicle is also assigned to the client.
 - The vehicle has no assigned location.
 
-See [vehicles](/vehicles.md) for more information on assigning a location to a vehicle.
+See [vehicles](/vehicles.md).
