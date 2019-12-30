@@ -16,11 +16,13 @@ If a user is created using a **MASTER** account, the user needs to be assigned t
 
 To create a user, go to users page in the sidebar then click the "NEW USER" button on the top right.
 
-If the role of the user is *guest* then you can specify a vehicle category. This will limit the user in which vehicle category it can make a booking.
-
 <img src="/media/users/create.gif"
      alt="User creation"
      style="margin-left: auto; margin-right: auto; height: 400px" />
+
+### User Categories
+
+If the role of the user is *guest* then you can optionally specify a vehicle category. This will limit the user in which vehicle category it can make a booking. See [Vehicle Categories](/users.md#Vehicle-Categories)
 
 ### Invites
 
