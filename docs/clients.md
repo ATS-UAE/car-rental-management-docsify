@@ -1,10 +1,10 @@
 # Clients
 
-Clients can be created by a *master* account.
+Clients can be created by a _master_ account.
 
 Each client will have their own separate users, bookings, vehicles, and locations.
 
-Only the *master* account can assign users, vehicles, and locations to a client. Once assigned, these resources will be accessible by the users in that *client*.
+Only the _master_ account can assign users, vehicles, and locations to a client. Once assigned, these resources will be accessible by the users in that _client_.
 
 ## Client Resources
 
@@ -14,7 +14,7 @@ The diagram below presents how resouces are divided within each clients.
 
 ## Creating Clients
 
-When logged in into a *Master* account, enter the clients page by clicking the hamburger menu button in the top right corner of the app.
+When logged in into a _Master_ account, enter the clients page by clicking the hamburger menu button in the top right corner of the app.
 
 Once there, click the add button on the top right of the table.
 
@@ -68,7 +68,7 @@ You can assign vehicles by clicking the vehicle icon ![Vehicle](/media/icons/dir
 
 A vehicle will only be available to be assigned to the client if:
 
-- The assigned location of the vehicle is also assigned to the client.
-- The vehicle has no assigned location.
+-   The assigned location of the vehicle is also assigned to the client.
+-   The vehicle has no assigned location.
 
 See [vehicles](/vehicles.md).

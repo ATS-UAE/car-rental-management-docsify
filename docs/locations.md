@@ -1,10 +1,10 @@
 # Locations
 
-A location is a container for the vehicles. Each vehicles can be assigned to a location. When a *guest* is booking a vehicle, they can select a location where they want to pickup the vehicle.
+A location is a container for the vehicles. Each vehicles can be assigned to a location. When a _guest_ is booking a vehicle, they can select a location where they want to pickup the vehicle.
 
 ## Creating Locations
 
-A location can only be created by a *master* account.
+A location can only be created by a _master_ account.
 
 <img src="/media/locations/create.gif"
      alt="User creation"

@@ -1,6 +1,6 @@
 # Bookings
 
-Users of the application can manage bookigns through the "Bookings" page.
+Users of the application can manage bookings through the "Bookings" page.
 
 ## Creating Bookings
 
@@ -8,8 +8,8 @@ Only guests can [create](permissions.md#bookings) bookings.
 
 Vehicles will only be available if:
 
-- The *guest* has the includes category of the vehicle.
-- No pending, or on-going booking is on the vehicle.
+-   The _guest_ has the includes category of the vehicle.
+-   No pending, or on-going booking is on the vehicle.
 
 <img src="/media/bookings/create.gif"
      alt="User creation"
@@ -17,9 +17,9 @@ Vehicles will only be available if:
 
 ## Approving Bookings
 
-After a *guest* has sent a booking request, the *KEY MANAGER* or *ADMIN* can approve or deny the request.
+After a _guest_ has sent a booking request, the _KEY MANAGER_ or _ADMIN_ can approve or deny the request.
 
-Once a booking has been approved, an email will be sent to the *guest* containing the location of the vehicle, and the pick-up date.
+Once a booking has been approved, an email will be sent to the _guest_ containing the location of the vehicle, and the pick-up date.
 
 You can also change the booking time, or vehicle if so desired.
 
